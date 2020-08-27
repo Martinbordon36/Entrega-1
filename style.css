@@ -1,0 +1,30 @@
+ img {
+     max-width: 100%;
+ }
+ 
+ .contenedor {
+     margin: 0 auto;
+ }
+ 
+ .navegacion {
+     font-size: 30px;
+     text-decoration: none;
+     color: white;
+     background-color: #d3d3d3;
+     text-align: center;
+ }
+ 
+ .navegacion a {
+     text-decoration: none;
+     color: white;
+     margin: 20px;
+ }
+ 
+ .barra {
+     height: 100%;
+     text-align: center;
+ }
+ 
+ .textos-productos {
+     text-align: center;
+ }
