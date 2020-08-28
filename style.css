@@ -35,7 +35,6 @@
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
-     background-color: red;
      padding-left: 20px;
  }
  
@@ -58,4 +57,59 @@
  
  .producto img:first-of-type {
      padding-left: 0px;
+ }
+ 
+ .contenido-contacto h2 {
+     opacity: orange;
+     padding: 50px 400px;
+     display: block;
+ }
+ 
+ .contenido-contacto a {
+     text-align: center;
+ }
+ 
+ .imagen-contacto {
+     background-color: black;
+     background-position: center center;
+     background-size: cover;
+     height: 200px;
+     display: flex;
+     align-items: center;
+     color: white;
+ }
+ 
+ .footer {
+     background-color: #333333;
+     color: white;
+     margin: 0;
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ 
+ .navegacion-footer {
+     font-size: 30px;
+     text-decoration: none;
+     color: white;
+     text-align: center;
+ }
+ 
+ .navegacion-footer a {
+     text-decoration: none;
+     color: white;
+     margin: 20px;
+ }
+ 
+ .boton {
+     color: white;
+     font-weight: 300;
+     text-decoration: none;
+     font-size: 20px;
+     padding: 10px 30px;
+     margin-top: -20px;
+     background-color: olivedrab;
+ }
+ 
+ .contenido-contacto a {
+     text-decoration: none;
  }
