@@ -28,6 +28,10 @@
      margin: 20px;
  }
  
+ .navegacion a:hover {
+     color: green;
+ }
+ 
  .barra {
      height: 100%;
      text-align: center;
@@ -164,7 +168,7 @@
  }
  
  .boton-contacto {
-     margin-top: 30px;
+     margin-top: 20px;
  }
  
  .contactanos {
@@ -186,4 +190,24 @@
      padding: 10px 30px;
      background-color: #333333;
      margin-bottom: 20px;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     width: 100%;
+ }
+ 
+ th,
+ td {
+     text-align: left;
+     padding: 8px;
+ }
+ 
+ tr:nth-child(even) {
+     background-color: #f2f2f2
+ }
+ 
+ th {
+     background-color: #282e29;
+     color: white;
  }
